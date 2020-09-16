@@ -45,3 +45,39 @@ function handleHref () {
 ````js
 window.addEventListener('popstate', handleHref);
 ````
+
+## VueRouter本质
+
+vue是一个渐进式的框架，当需要路由管理时候：
+
+1. 安装VueRouter，再通过import VueRouter from 'vue-router'引入;
+2. 创建一个router实例 const router = new VueRouter({...}),再把router作为参数的一个属性值挂载到根组件上`new Vue({router})`;
+3. 通过Vue.use(VueRouter)注册插件
+
+那么由以上几点可以推测
+
+然后再通过传进来的Vue创建两个组件router-link和router-view
+
+````js
+//myVueRouter.js
+let Vue = null;
+class VueRouter{
+
+}
+VueRouter.install = function (v) {
+    Vue = v;
+    //新增代码
+    Vue.component('router-link',{
+        render(h){
+            return h('a',{},'首页')
+        }
+    })
+    Vue.component('router-view',{
+        render(h){
+            return h('h1',{},'首页视图')
+        }
+    })
+};
+
+export default VueRouter
+````
