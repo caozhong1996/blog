@@ -5,7 +5,7 @@
 
 ### DDD
 
-[浅谈ddd在前端的应用（前言）](https://github.com/caozhong1996/blog/blob/master/%E6%B5%85%E8%B0%88ddd%E5%9C%A8%E5%89%8D%E7%AB%AF%E7%9A%84%E5%BA%94%E7%94%A8%EF%BC%88%E4%BB%8B%E7%BB%8D%EF%BC%89.md)
+[浅谈ddd在前端的应用（前言）](./浅谈ddd在前端的应用（前言）.md)
 
 [浅谈ddd在前端的应用（介绍）](https://github.com/caozhong1996/blog/blob/master/%E6%B5%85%E8%B0%88ddd%E5%9C%A8%E5%89%8D%E7%AB%AF%E7%9A%84%E5%BA%94%E7%94%A8%EF%BC%88%E4%BB%8B%E7%BB%8D%EF%BC%89.md)
 
